@@ -60,25 +60,25 @@ Colors
 *********/
 /* site body */
 body {
-  background-color: #fff;
+  background-color: #faf3dd;
   color: #999; 
 }
-/* green header*/
+/* drak green header*/
 header {
-  background: #6ab47b;
+  background: #4a7c59;
   border-color: #599a68; 
 }
 
 /*nav background on mobile */
 nav {
-  background-color: #599a68;
+  background-color: #8fc0a9;
 }
 /* logo text */
 h1, h2 {
   color: #fff;
 }
 a {
-  color: #6ab47b;
+  color: #4a7c59;
 }
 /* nav link */
 nav a, nav a:visited {
@@ -86,5 +86,5 @@ nav a, nav a:visited {
 }
 /* nav link*/
 nav a.selected, nav a:hover {
-  color: #32673f:
+  color: #c8D5b9:
 }
