@@ -40,6 +40,7 @@ header {
 h1 {
   font-family: 'Changa One', sans-serif;
   margin: 15px 0;
+  padding: 0 0 0 10px;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
@@ -47,6 +48,7 @@ h1 {
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
+  padding: 0 0 0 10px;
   font-weight: normal;
 }
 /********
@@ -102,7 +104,7 @@ Page: Portfolio
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+  background-color: rgba(144, 220, 115, 0.31);
   color: #bdc3c7;
 }
 
@@ -110,7 +112,7 @@ Page: Portfolio
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #000;
 }
 /********
 Page: About
@@ -122,35 +124,6 @@ Page: About
   border-radius: 20%;
 }
 /********
-Page: Contact
-*********/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px; 
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png'); 
-}
-.contact-info li.mail a {
-  background-image: url('../img/mail.png'); 
-}
-.contact-info li.twitter a {
- background-image: url('../img/twitter.png'); 
-}
-/********
 Colors
 *********/
 /* site body */
@@ -160,20 +133,19 @@ body {
 }
 /* dark green header*/
 header {
-  background: #4a7c59;
-  border-color: #599a68; 
+  background: #224509;
 }
 
 /*nav background on mobile */
 nav {
-  background-color: #8fc0a9;
+  background-color: rgba(144, 220, 115, 0.31);
 }
 /* logo text */
 h1, h2 {
   color: #fff;
 }
 a {
-  color: #4a7c59;
+  color: #ccc;
 }
 /* nav link */
 nav a, nav a:visited {

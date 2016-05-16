@@ -61,7 +61,7 @@ Page: Header
     margin-bottom: 20px;
   }
   header {
-    border-bottom: 5px solid #599a68;
+    border-bottom: 5px solid rgba(144, 220, 115, 0.31);
     margin-bottom: 60px;
   }
 }
