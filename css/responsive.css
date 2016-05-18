@@ -50,7 +50,7 @@ Page: Header
   #logo {
     float: left;
     margin-right: 5%;
-    text-align: left;
+    text-align: -webkit-left;
     width: 45%;
   }
   h1 {
