@@ -121,7 +121,7 @@ Page: About
   display: block
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 /********
 Colors
@@ -129,7 +129,7 @@ Colors
 /* site body */
 body {
   background-color: #faf3dd;
-  color: #999; 
+  color: #999;
 }
 /* dark green header*/
 header {
